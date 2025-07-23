@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header, 
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainRed{
+    background-color: red;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.styleContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.displayNone{
+    display: none;
+}
